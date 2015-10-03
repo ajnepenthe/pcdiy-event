@@ -101,12 +101,19 @@
 .slick-slide img
 {
     display: block;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 75%;
+    max-height: 75%;
     font-size: inherit;
     display: inline-block;
     vertical-align: middle;
 }
+
+.slick-slide.slick-current img
+{
+    max-width: 95%;
+    max-height: 95%;
+}
+
 .slick-slide.slick-loading img
 {
     display: none;
